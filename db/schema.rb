@@ -11,12 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160305102909) do
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=gb2312" do |t|
     t.string   "name"
     t.string   "password"
     t.string   "email"
+=======
+ActiveRecord::Schema.define(version: 20160307010202) do
+
+  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=gb2312" do |t|
+    t.string   "names"
+    t.string   "password"
+    t.string   "email"
+    t.string   "phone"
+>>>>>>> origin/master
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

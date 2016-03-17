@@ -1,6 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+<<<<<<< HEAD
   name: MyString
   password: MyString
   email: MyString
@@ -9,3 +10,15 @@ two:
   name: MyString
   password: MyString
   email: MyString
+=======
+  names: MyString
+  password: MyString
+  email: MyString
+  phone: MyString
+
+two:
+  names: MyString
+  password: MyString
+  email: MyString
+  phone: MyString
+>>>>>>> origin/master
